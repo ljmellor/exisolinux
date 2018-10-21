@@ -41,7 +41,7 @@ zenity --question \
 case $? in
     0)
 ## extract the file
-(extract-xiso -x "$filename" -d "$dest" && find "$dest" -name "*.xex" -exec wine winbins/xextool.exe -ra -md {} \; && find "$dest" -name "*.dll" -exec wine winbins/xextoo$
+(extract-xiso/extract-xiso -x "$filename" -d "$dest" && find "$dest" -name "*.xex" -exec wine winbins/xextool.exe -ra -md {} \; && find "$dest" -name "*.dll" -exec wine winbins/xextoo$
 
 if [ "$?" = -1 ] ; then
         zenity --error \
