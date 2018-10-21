@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Name=exiso script
+Comment=Extract Xbox 360 iso images
+GenericName=extract-xiso
+Keywords=xbox;360;iso;exiso;extract
+Exec=exiso
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=xbox
+Categories=Games;
+MimeType=
+StartupNotify=true
+NoDisplay=false
